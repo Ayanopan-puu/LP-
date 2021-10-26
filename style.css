@@ -85,8 +85,9 @@ header {
 .news {
   width: 60%;
   height: 300px;
-  margin-left: 400px;
-  padding-top: 100px;
+  margin-left:380px;
+  padding-top: 80px;
+  margin-bottom: 100px;
 }
 .news-topic {
   font-family: fantasy;
@@ -100,6 +101,7 @@ header {
 .news-item {
   border-top: 1px solid #ddd;
   padding: 20px 0;
+  margin: 10px 0;
   align-items: center;
 }
 
@@ -115,4 +117,27 @@ header {
   background-color: rgb(221, 75, 197);
   color: white;
   font-size: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.news-border {
+  border-top: 3px solid rgb(88, 87, 87);
+  border-bottom: 3px solid rgb(88, 87, 87);
+}
+.about {
+  height: 300px;
+  width: 80%;
+  background-color: rgb(243, 236, 214);
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.about-topic-sub {
+  width: 50%;
+  position:absolute;
+}
+.about-img {
+  float: right;
+  width: 40%;
+  position: relative;
 }
