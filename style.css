@@ -42,10 +42,9 @@ header {
   font-family: fantasy;
   font-size: 60px;
   position: absolute;
-  top: 10%;
-  left: 15%;
+  top: 15%;
+  left: 20%;
   color: palevioletred;
-  letter-spacing: 0.1em;
 }
 .mgr-blue {
   color: aqua;
@@ -121,18 +120,49 @@ header {
   border-bottom: 3px solid rgb(88, 87, 87);
 }
 .about {
-  height: 300px;
+  height: 350px;
   width: 80%;
   background-color: rgb(243, 236, 214);
   margin: 0 auto;
   margin-top: 150px;
 }
+.about-topic {
+  font-family: fantasy;
+  color: rgb(221, 75, 197);
+  text-align: center;
+}
+.about-h2 {
+  text-align: center;
+}
+.about-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 760px;
+  margin-top: 60px;
+}
 .about-topic-sub {
-  width: 50%;
-  position:absolute;
+  width: 40%;
+  margin-top: 20px;
 }
 .about-img {
-  float: right;
-  width: 40%;
-  position: relative;
+  width: 350px;
+  height: 300px;
+}
+.about-img img{
+  width: 100%;
+}
+.service {
+  height: 300px;
+  width: 70%;
+}
+.card-service {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.card-service img {
+  width: 100px;
+  height: auto;
 }
