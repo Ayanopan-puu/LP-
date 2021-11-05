@@ -188,7 +188,7 @@ header {
 .service-card2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  width: 60%;
+  width: 50%;
   display: flex;
   background-color: rgb(224, 144, 224);
   color: white;
@@ -196,7 +196,7 @@ header {
 .service-card3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  width:60%;
+  width:50%;
   display: flex;
   background-color: thistle;
   color: white;
@@ -205,11 +205,77 @@ header {
   margin-top: 10px;
 }
 .blog {
-  height: 300px;
+  background-color: rgba(187, 178, 178, 0.753);
+}
+.blog-topic {
+  padding-top: 30px;
+  margin-left: 40px;
+  font-family: fantasy;
+  color: rgb(221, 75, 197);
+}
+.blog-topic-h2 {
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 .wrapper {
   display: flex;
 }
+.blog-card {
+  width: 300px;
+  height: 270px;
+  margin-right: 30px;
+  background-color: white;
+  border-radius: 7px;
+  margin: auto;
+  position: relative;
+}
+.blog-mark {
+  position: absolute;
+  top: 0%;
+  color: white;
+  background-color: rgba(233, 59, 103, 0.685);
+  width: 25%;
+  height: 10%;
+  padding-top: 15px;
+  text-align: center;
+  border-top-left-radius: 7px;
+}
 .blog-img {
   width: 30%;
+}
+.blog-img img {
+  width: 300px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.blog-date {
+  float: left;
+}
+.blog-TECH {
+  float: right;
+}
+.blog-a {
+  margin-top: 25px;
+  margin-left: 500px;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(216, 54, 143);
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+table th {
+  font-weight: bold;
+  background-color: #dedede;
 }
