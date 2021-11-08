@@ -257,6 +257,7 @@ header {
 .blog-a {
   margin-top: 25px;
   margin-left: 500px;
+  margin-bottom: 30px;
   padding-top: 10px;
   display: inline-block;
   text-align: center;
@@ -266,9 +267,22 @@ header {
   border-radius: 20px;
   border: 2px solid rgb(216, 54, 143);
 }
+.company-topic {
+  padding-top: 40px;
+  margin-left: 180px;
+  font-family: fantasy;
+  color: rgb(221, 75, 197);
+}
+.company-topic-h2 {
+  margin-bottom: 20px;
+  margin-left: 180px;
+  font-size: 20px;
+}
 table {
   width: 60%;
   border-collapse: collapse;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 table th,
 table td {
@@ -278,4 +292,11 @@ table td {
 table th {
   font-weight: bold;
   background-color: #dedede;
+}
+
+.recruitment {
+  display: flex;
+}
+.interview {
+  display: flex;
 }
