@@ -293,10 +293,33 @@ table th {
   font-weight: bold;
   background-color: #dedede;
 }
-
-.recruitment {
+.detail {
+  margin-top: 100px;
   display: flex;
 }
+.recruitment img {
+  position: relative;
+  width: 65%;
+}
+.recruitment {
+  position: absolute;
+  left: 16%;
+}
+.recruitment-topic {
+  color: rgb(235, 44, 60);
+  top: -30%;
+  left: 30%;
+}
+.interview img {
+  position: relative;
+  width: 85.5%;
+}
 .interview {
-  display: flex;
+  position: absolute;
+  left: 54.74%;
+}
+.interview-topic {
+  color: rgb(235, 44, 60);
+  top: -30%;
+  left: 30%;
 }
