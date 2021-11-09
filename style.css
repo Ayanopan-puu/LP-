@@ -295,31 +295,30 @@ table th {
 }
 .detail {
   margin-top: 100px;
+  width: 100%;
   display: flex;
-}
-.recruitment img {
-  position: relative;
-  width: 65%;
+  margin-left: 30px;
 }
 .recruitment {
-  position: absolute;
-  left: 16%;
+  position: relative;
 }
 .recruitment-topic {
-  color: rgb(235, 44, 60);
-  top: -30%;
-  left: 30%;
-}
-.interview img {
-  position: relative;
-  width: 85.5%;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
 }
 .interview {
-  position: absolute;
-  left: 54.74%;
+  width: 50%;
+  position: relative;
 }
 .interview-topic {
-  color: rgb(235, 44, 60);
-  top: -30%;
-  left: 30%;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 30%;}
+.ending {
+  margin-top: 30px;
 }
