@@ -14,7 +14,7 @@ a:hover {
 header {
   justify-content: space-between;
   align-items: center;
-  height:70px;
+  height: 70px;
   padding: 0 30px;
   display: flex;
 }
@@ -82,7 +82,7 @@ header {
 .news {
   width: 60%;
   height: 300px;
-  margin-left:380px;
+  margin-left: 380px;
   padding-top: 80px;
   margin-bottom: 100px;
 }
@@ -155,7 +155,7 @@ header {
   width: 350px;
   height: 300px;
 }
-.about-img img{
+.about-img img {
   width: 100%;
 }
 .service {
@@ -201,7 +201,7 @@ header {
 .service-card3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  width:50%;
+  width: 50%;
   display: flex;
   background-color: thistle;
   color: white;
@@ -340,11 +340,13 @@ table th {
 }
 .ending a {
   display: inline-block;
-  background: #ff0095;
+  background: -moz-linear-gradient(right, #b4458a, rgba(233, 112, 182, 0.89));
+  background: -webkit-linear-gradient(right, #b4458a, rgba(233, 112, 182, 0.89));
+  background: linear-gradient(to left, #b4458a, rgba(233, 112, 182, 0.89));
   border-radius: 30px;
   padding: 20px 20px;
   margin-left: -90px;
-  box-shadow: -2px 5px #be5091;
+  box-shadow: 0px 8px #943a6f;
 }
 .my-white {
   color: white;
