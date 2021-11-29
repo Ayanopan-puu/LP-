@@ -124,7 +124,6 @@ header {
 }
 .about {
   height: 350px;
-  width: 80%;
   background-color: rgb(243, 236, 214);
   margin: 0 auto;
   margin-top: 150px;
@@ -161,7 +160,6 @@ header {
 .service {
   height: 400px;
   width: 100%;
-  margin-left: 150px;
 }
 .service-topic {
   padding-top: 50px;
@@ -174,7 +172,8 @@ header {
 }
 .card-service {
   display: grid;
-  grid-template-columns: 280px;
+  grid-template-columns: 500px 800px 0px;
+  grid-template-rows: 100px 100px 0px;
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
@@ -184,25 +183,29 @@ header {
   height: auto;
 }
 .service-card1 {
-  grid-column: 1/2;
   grid-row: 1/3;
+  grid-column: 1/2;
   text-align: center;
   background-color: rgb(212, 58, 179);
   color: white;
 }
 .service-card2 {
-  grid-column: 2/3;
   grid-row: 1/2;
+  grid-column: 2/3;
   width: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(224, 144, 224);
   color: white;
 }
 .service-card3 {
-  grid-column: 2/3;
   grid-row: 2/3;
+  grid-column: 2/3;
   width: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: thistle;
   color: white;
 }
@@ -210,6 +213,8 @@ header {
   margin-top: 10px;
 }
 .blog {
+  width: 80%;
+  margin: 0 auto;
   background-color: rgba(187, 178, 178, 0.753);
 }
 .blog-topic {
@@ -224,6 +229,7 @@ header {
 }
 .wrapper {
   display: flex;
+  justify-content: center;
 }
 .blog-card {
   width: 300px;
@@ -231,7 +237,6 @@ header {
   margin-right: 30px;
   background-color: white;
   border-radius: 7px;
-  margin: auto;
   position: relative;
 }
 .blog-mark {
@@ -300,12 +305,11 @@ table th {
 }
 .detail {
   margin-top: 100px;
-  width: 100%;
   display: flex;
-  margin-left: 30px;
 }
 .recruitment {
   position: relative;
+  width: 50%;
 }
 .recruitment-topic {
   color: white;
@@ -341,7 +345,11 @@ table th {
 .ending a {
   display: inline-block;
   background: -moz-linear-gradient(right, #b4458a, rgba(233, 112, 182, 0.89));
-  background: -webkit-linear-gradient(right, #b4458a, rgba(233, 112, 182, 0.89));
+  background: -webkit-linear-gradient(
+    right,
+    #b4458a,
+    rgba(233, 112, 182, 0.89)
+  );
   background: linear-gradient(to left, #b4458a, rgba(233, 112, 182, 0.89));
   border-radius: 30px;
   padding: 20px 20px;
