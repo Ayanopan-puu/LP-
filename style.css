@@ -36,7 +36,7 @@ header {
   margin-right: 30px;
 }
 .main {
-  height: 380px;
+  height: 450px;
   width: 100%;
   text-align: center;
   position: relative;
@@ -80,11 +80,9 @@ header {
   margin-top: 30px;
 }
 .news {
-  width: 60%;
-  height: 300px;
-  margin-left: 380px;
   padding-top: 80px;
-  margin-bottom: 100px;
+  width: 60%;
+  margin: 0 auto;
 }
 .news-topic {
   font-family: fantasy;
@@ -126,12 +124,13 @@ header {
   height: 350px;
   background-color: rgb(243, 236, 214);
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .about-topic {
   font-family: fantasy;
   color: rgb(221, 75, 197);
   text-align: center;
+  padding-top: 20px;
 }
 .about-h2 {
   text-align: center;
@@ -144,11 +143,12 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   width: 760px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .about-topic-sub {
   width: 40%;
   margin-top: 20px;
+  font-size: larger;
 }
 .about-img {
   width: 350px;
@@ -190,6 +190,9 @@ header {
   background-color: rgb(212, 58, 179);
   color: white;
 }
+.service-business1 {
+  padding-top: 100px;
+}
 .service-card2 {
   grid-row: 1/2;
   grid-column: 2/3;
@@ -214,6 +217,7 @@ header {
 .blog {
   margin: 0 auto;
   background-color: rgba(187, 178, 178, 0.753);
+  height: 500px;
 }
 .blog-topic {
   padding-top: 30px;
@@ -228,6 +232,7 @@ header {
 .wrapper {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .blog-card {
   width: 300px;
@@ -263,10 +268,9 @@ header {
   float: right;
 }
 .blog-a {
-  margin-top: 25px;
-  margin-bottom: 30px;
+  margin: 0 auto;
   padding-top: 10px;
-  display: inline-block;
+  display: block;
   text-align: center;
   width: 20%;
   height: 30px;
@@ -330,17 +334,20 @@ table th {
   margin-top: 30px;
   text-align: center;
 }
+.form-topic {
+  font-size: larger;
+  margin-bottom: 30px;
+}
 .ending-line {
-  display: inline-block;
-  margin-left: 150px;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
   width: 3px;
   height: 40px;
   background-color: rgb(219, 100, 209);
 }
 .ending a {
-  display: inline-block;
+  display: block;
   background: -moz-linear-gradient(right, #b4458a, rgba(233, 112, 182, 0.89));
   background: -webkit-linear-gradient(
     right,
@@ -350,7 +357,8 @@ table th {
   background: linear-gradient(to left, #b4458a, rgba(233, 112, 182, 0.89));
   border-radius: 30px;
   padding: 20px 20px;
-  margin-left: -90px;
+  margin: 0 auto;
+  width: fit-content;
   box-shadow: 0px 8px #943a6f;
 }
 .my-white {
