@@ -12,3 +12,9 @@ https://user-images.githubusercontent.com/89112624/151919684-7b139683-125b-4581-
 
 # URL
 https://flamboyant-bell-f3caa6.netlify.app/
+
+
+
+# 使用技術
+HTML
+CSS
