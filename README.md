@@ -1,5 +1,5 @@
 ### コーポレートサイトの勉強として作成しました。
-# estrainc
+# estrainc(ホームページ)
 
 
 
@@ -17,4 +17,7 @@ https://flamboyant-bell-f3caa6.netlify.app/
 
 # 使用技術
 HTML
+
+
+
 CSS
